@@ -380,7 +380,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventoryCanvas  1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4609224482292667498, guid: cd994aa2a540be54d8ec58467e8a1803, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
