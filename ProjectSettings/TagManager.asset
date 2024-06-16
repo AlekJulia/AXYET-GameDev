@@ -9,7 +9,8 @@ TagManager:
   - GreenPotion
   - PurplePotion
   - RedPotion
-  - "\u041B\u044F\u0433\u0443\u0448\u043A\u0430"
+  - NPC
+  - MissionFlower
   layers:
   - Default
   - TransparentFX

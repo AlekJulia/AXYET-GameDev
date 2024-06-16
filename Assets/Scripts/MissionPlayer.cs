@@ -5,6 +5,7 @@ public class MissionPlayer : MonoBehaviour
 {
     public bool quest; //  отображает название квеста на экране;
     public string MissionText; // название квеста;
+    public string ObjectCollected; //надпись что объект собран
     public string ObjectTag; // тэг объекта;
     public bool MissionObjects; //отображает собран предмет или нет;
     public int Money; // количество денег;
@@ -13,10 +14,10 @@ public class MissionPlayer : MonoBehaviour
     {
         if (quest)
         {
-            GUI.Label(new Rect(20, 80, 300, 30), " " + MissionText); // значение названия квеста будет браться из скрипта Misson Bot;
+            GUI.Label(new Rect(20, 80, 300, 30), "" + MissionText + ObjectCollected); // значение названия квеста будет браться из скрипта Misson Bot;
             if (MissionObjects)
             { // если предмет собран;
-                GUI.Label(new Rect(150, 80, 200, 30), "[Предмет собран]");
+                ObjectCollected = " [Предмет собран]";
             }
         } // выводит надпись;
                 GUI.Label(new Rect(20, 100, 100, 30), "Деньги: " + Money);
