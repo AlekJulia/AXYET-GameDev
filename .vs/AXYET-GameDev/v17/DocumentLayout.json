@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MissionObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MissionPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +15,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MissionBot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MissionObject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MissionTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\ItemPickedDestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemPickedDestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\ItemPick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemPick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\Inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,30 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MissionPlayer.cs",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MissionPlayer.cs",
               "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\MissionPlayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T03:43:28.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MissionBot.cs",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionBot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MissionBot.cs",
               "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionBot.cs",
               "RelativeToolTip": "Assets\\Scripts\\MissionBot.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAEAAAABAAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAE8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T03:43:07.188Z",
               "EditorCaption": ""
@@ -70,48 +66,35 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MissionTrigger.cs",
               "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionTrigger.cs",
               "RelativeToolTip": "Assets\\Scripts\\MissionTrigger.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACcAAABLAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T03:42:39.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemPickedDestroy.cs",
-              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\ItemPickedDestroy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemPickedDestroy.cs",
-              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\ItemPickedDestroy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemPickedDestroy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T03:42:12.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemPick.cs",
-              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\ItemPick.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemPick.cs",
-              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\ItemPick.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemPick.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T03:41:48.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MissionObject.cs",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MissionObject.cs",
               "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\MissionObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\MissionObject.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAB2AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T03:30:50.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\\AXYET-GameDev\\AXYET-GameDev\\Assets\\Scripts\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T14:09:10.315Z",
               "EditorCaption": ""
             }
           ]

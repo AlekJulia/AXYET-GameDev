@@ -11,6 +11,8 @@ TagManager:
   - RedPotion
   - NPC
   - MissionFlower
+  - MissionObject
+  - Inventory
   layers:
   - Default
   - TransparentFX

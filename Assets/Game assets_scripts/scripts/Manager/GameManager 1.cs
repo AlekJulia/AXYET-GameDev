@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -26,7 +27,18 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         CheckRespawn();
+        SceneSwitch();
+
     }
+
+    public void SceneSwitch()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
+
     public void Respawn()
     {
         respawnTimeStart = Time.time;

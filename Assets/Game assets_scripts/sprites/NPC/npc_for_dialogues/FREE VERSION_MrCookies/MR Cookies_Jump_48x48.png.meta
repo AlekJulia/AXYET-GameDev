@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MR Cookies_Jump_48x48_0: -6161601599851395400
+      MR Cookies_Jump_48x48_1: 5968172282052099756
+      MR Cookies_Jump_48x48_2: 7784897609644298571
+      MR Cookies_Jump_48x48_3: 4475881067098895832
+      MR Cookies_Jump_48x48_4: 7331469999150157536
+      MR Cookies_Jump_48x48_5: 6412102847289858542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

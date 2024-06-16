@@ -7,19 +7,11 @@ using UnityEngine.SceneManagement;
 
 public class Inventory : MonoBehaviour
 {
-	private Canvas canvas;
+    //public ТипДанных[] НазваниеМассива;
+    public Image[] Icon; // слоты в инвентаре
+	public Sprite[] Sprites; //просто пул из спрайтов всех объектов, которые мы крепим к иконке
+    private MissionObject MO;
+	public List<string> InventoryObjects = new List<string>();
 
-    void Start()
-    {
-        canvas = GetComponent<Canvas>();
-        canvas.enabled = false;
-    }
-
-    void Update()
-	{
-		if (Input.GetKeyDown(KeyCode.I))
-		{
-			canvas.enabled = !canvas.enabled;
-		}
-	}
+    public int i = 0;
 }
