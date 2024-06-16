@@ -8,12 +8,12 @@ using UnityEngine.SceneManagement;
 public class MissionTrigger : MonoBehaviour
 {
     public bool trigger = false;
-    //public Texture aTexture;
+
     private MissionBot MB; // подключаем скрипт MissionBot чтобы брать оттуда состояние диалога;
 
     void Start()
     {
-        MB = GameObject.FindGameObjectWithTag("NPC").GetComponent<MissionBot>(); //
+        MB = GetComponent<MissionBot>(); //
     }
 
     void OnTriggerStay2D(Collider2D obj) //«Наезд» на объект

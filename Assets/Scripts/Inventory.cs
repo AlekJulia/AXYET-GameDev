@@ -11,7 +11,7 @@ public class Inventory : MonoBehaviour
     public Image[] Icon; // слоты в инвентаре
 	public Sprite[] Sprites; //просто пул из спрайтов всех объектов, которые мы крепим к иконке
     private MissionObject MO;
-	public List<string> InventoryObjects = new List<string>();
+    public List<string> InventoryObjects = new List<string>();
 
     public int i = 0;
 }

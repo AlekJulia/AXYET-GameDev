@@ -137,3 +137,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: 0
   ObjectName: "\u041B\u0443\u043D\u043D\u0430\u044F \u041B\u0438\u043B\u0438\u044F"
+  EmptyIndexInInventory: 0

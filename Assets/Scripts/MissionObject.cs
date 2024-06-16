@@ -7,11 +7,14 @@ public class MissionObject : MonoBehaviour
     public bool trigger = false;
     public string ObjectName;
     private Inventory Inv;
-    public bool IsObjectCollected; //выводит уведомление о собраном предмете
+    private SpriteRenderer ThisObjectSprite;
+    public int EmptyIndexInInventory;
+
 
     void Start() {
         MP = GameObject.FindGameObjectWithTag("Player").GetComponent<MissionPlayer>();// определяем что скрипт MissionPlayer будет находится на персонаже с тэгом player;
         Inv = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
+        ThisObjectSprite = gameObject.GetComponent<SpriteRenderer>();
     }
 
     void OnTriggerStay2D(Collider2D obj) //«Наезд» на объект
@@ -24,7 +27,7 @@ public class MissionObject : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D obj) //анти наезд на объект
     {
-        if (obj.tag == "Player")
+            if (obj.tag == "Player")
         {
             trigger = false;
         }
@@ -33,11 +36,17 @@ public class MissionObject : MonoBehaviour
     void Update() {
         if (Input.GetKeyDown(KeyCode.E) && trigger == true) // если игрок рядом с объектом и нажал Е
         {
-            IsObjectCollected = true;
+            //MP.IsObjectCollected = true;
+            //Inv.Icon[Inv.i].sprite = ThisObjectSprite.sprite;
+            //Inv.InventoryObjects.Add(ObjectName);
 
-            Inv.Icon[Inv.i].sprite = Inv.Sprites[5];
-            Inv.InventoryObjects.Add(ObjectName);
+            EmptyIndexInInventory = Inv.InventoryObjects.IndexOf("-");
+            Inv.Icon[EmptyIndexInInventory].sprite = ThisObjectSprite.sprite;
+            Inv.InventoryObjects.Insert(EmptyIndexInInventory, ObjectName);
+            Inv.InventoryObjects.Remove("-");
             Inv.i++;
+
+            MP.LastAction = "Получено [" + ObjectName + "]";
 
             Destroy(gameObject); // и удаляем этот объект со сцены;
         }
@@ -48,11 +57,6 @@ public class MissionObject : MonoBehaviour
         if (trigger) //игрок наступил на объект
         {
             GUI.Box(new Rect(Screen.width / 2 + 20, Screen.height / 2 + 40, 90, 25), "[E] Собрать");
-        }
-
-        if (IsObjectCollected)
-        {
-            GUI.Label(new Rect(5, Screen.height - 25, 400, 25), "Получено [" + ObjectName + "]");
         }
     }
 }

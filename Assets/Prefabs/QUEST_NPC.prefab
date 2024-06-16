@@ -157,6 +157,7 @@ MonoBehaviour:
   MissionDialogeDone: "\u0422\u044B \u0443\u0436\u0435 \u043D\u0430\u0448\u0435\u043B
     \u041B\u0443\u043D\u043D\u0443\u044E \u041B\u0438\u043B\u0438\u044E?"
   MissionObjectName: "\u041B\u0443\u043D\u043D\u0430\u044F \u041B\u0438\u043B\u0438\u044F"
+  ObjectIndexInInventory: 0
 --- !u!95 &2880429781610344496
 Animator:
   serializedVersion: 7
