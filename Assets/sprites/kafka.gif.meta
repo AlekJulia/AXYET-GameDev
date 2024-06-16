@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kafka_0: 1305143334512432932
+      kafka_1: 831612907891669128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pixai-1703240172725599093-0_0: -7573035325090067485
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
